@@ -1,0 +1,1 @@
+java -classpath /Users/taojiayun/zhiwei/project/flink-sql-training/datagen/flink-sql-demo.jar myflink.SourceGenerator --input /Users/taojiayun/zhiwei/project/flink-sql-training/datagen/user_behavior.log --output kafka localhost:9092 --speedup 2000
