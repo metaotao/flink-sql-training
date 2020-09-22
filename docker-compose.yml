@@ -1,13 +1,5 @@
 version: '2.1'
 services:
-#  datagen:
-#    image: jark/datagen:0.1
-#    command: "java -classpath /Users/taojiayun/zhiwei/project/flink-sql-training/datagen/flink-sql-demo.jar myflink.SourceGenerator --input /Users/taojiayun/zhiwei/project/flink-sql-training/datagen/user_behavior.log --output kafka kafka:9094 --speedup 2000"
-#    depends_on:
-#      - kafka
-#    environment:
-#      ZOOKEEPER_CONNECT: zookeeper
-#      KAFKA_BOOTSTRAP: kafka
   mysql:
     image: jark/mysql-example:0.1
     ports:
